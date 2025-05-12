@@ -182,14 +182,14 @@ class _LoginUIState extends State<LoginUI> {
                     ),
                     InkWell(
                       onTap: () {
-                         //ย้อนกลับได้
-                      Navigator.push(
-                        // context คือ หน้าปัจจุบัน
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SignupUI(),
-                        ),
-                      );
+                        //ย้อนกลับได้
+                        Navigator.push(
+                          // context คือ หน้าปัจจุบัน
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SignupUI(),
+                          ),
+                        );
                       },
                       child: Text(
                         ' Sign Up',
